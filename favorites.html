@@ -1,0 +1,88 @@
+<head>
+    <title>Favorites</title>
+    <style type="text/css">
+
+    </style>
+    <script type="text/javascript" src="js/favorites.js"></script>
+</head>
+
+<body>
+    <div id="page">
+
+        <div id="naviagtion">
+            <nav>
+                <!--We will fill this later-->
+                <ul>
+                    <li>
+                        <a href="index.html">About me </a>
+                    </li>
+                    <li class="active">
+                        <a href="favorites.html">Favorites</a 
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div id="controls">
+            <header> 
+                <h2> Controls</h2>
+            </header>
+            
+            <section class="control"> 
+                <header> 
+                    <h3>New Favorite</h3>
+                </header>
+                
+                
+                <form action="javascript:createFavorite();" id="creator">
+                    <fieldset>
+                        <label>Title</label>
+                        <input id="creator-title" type="text"/>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <label>Description</label>
+                        <div> 
+                        <textarea id="creator-description" rows="5">
+                        </textarea>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <label>Image</label>
+                        <input id="creator-media" type="text"/>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <button>Create</button>
+                    </fieldset>
+                </form>
+            
+            </section>
+              <!--We will fill this later-->
+        </div>
+        
+        <div id="content">
+            <header> 
+                <h2>Favorites</h2>
+            </header>
+            
+            <article class="favorite">
+                <header>
+                    <h3 class="title">Stranger thingzzzzzzzzz</h3>
+                </header>
+                
+                <div class="media">
+                  <iframe src="//giphy.com/embed/MctWy9ZVmREcw" width="480" height="301" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                  <p><a href="https://giphy.com/gifs/things-coffee-mornings-MctWy9ZVmREcw">via GIPHY</a></p>
+
+        </div>
+
+        <p class="description">
+            This is such a good show. Go watch it. 
+        </p>
+        </article>
+        <!--We will fill this later-->
+    </div>
+    </div>
+</body>
